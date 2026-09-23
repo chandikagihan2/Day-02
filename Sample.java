@@ -7,10 +7,14 @@ class Sample {
         System.out.println("Enter your name: ");
         String name = input.nextLine();
         System.out.println("Hello, " + name + "!");
-        name = null; // Clear the reference to the name variable
+        name = null;     // Clear the reference to the name variable
     }
 
     public static void main(String[] args) {
+        System.out.println("=======================================================================");
+        System.out.println("Welcome to the Sample Program!");
+        System.out.println("=======================================================================");
+
         System.out.println("Hello, Everyone!");
         printName();
     }
