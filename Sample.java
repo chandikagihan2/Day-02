@@ -6,6 +6,8 @@ class Sample {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter your name: ");
         String name = input.nextLine();
+        System.out.println("Hello, " + name + "!");
+        name = null; // Clear the reference to the name variable
     }
 
     public static void main(String[] args) {
